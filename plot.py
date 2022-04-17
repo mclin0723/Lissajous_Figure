@@ -46,7 +46,3 @@ for i in t:
                 axes.set_ylabel("y")
                 filename = f'{Fx1}-{Fy1}-{d}'
                 plt.savefig(filename + ".jpg")
-
-filename = f'{fx}:{fy}_{delta}'
-{str(fx) + ":" + str(fy) + "_" + str(delta)}
-print(filename)
